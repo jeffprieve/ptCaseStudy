@@ -9,7 +9,7 @@ figcaption,
 aside {
     display: block;
 }
-
+     
 body {
     background-color: #4F6D93;
     background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
@@ -104,15 +104,16 @@ table { margin: auto;
         border: 1px solid #3399CC; 
 		width: 80%; 
 		border-spacing: 0;
+      
 }
 
-td, th { padding: 5px;
+table, td, th { padding: 5px;
          border: 1px solid #3399CC;
          text-align: center;
 }
 
-tr:nth-of-type(even) {background-color: #F5FAFC; }
 
+tr:nth-of-type(even) {background-color: #F5FAFC; }
 
 
 /* ID's      */
@@ -163,7 +164,6 @@ tr:nth-of-type(even) {background-color: #F5FAFC; }
     display: inline;
 }
 
-#text {text-align: left;}
 
 
 /*  Classes  */
@@ -171,6 +171,10 @@ tr:nth-of-type(even) {background-color: #F5FAFC; }
 .resort {
     color: #5C7FA3;
     font-weight: bold;
+}
+
+.text {
+	text-align: left;
 }
 
 @media only screen and (max-width: 64em) {

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pacific Trails - Reservations</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="pacific.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pacific Trails Resort. A special lodging experience featuring Yurt rental. Located on the northern  California Coast.">
+    <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="yurts.html">Yurts</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Reservations at Pacific Trails</h2>
+            <h3>Contact Us Today!</h3>
+            <p>Required fields are marked with an asterisk *</p>
+            <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+                <label for="myFName">*First Name: </label>
+                <input type="text" name="myFName" id="myFName" required="required" placeholder="First Name">
+                <label for="myLastName">*Last Name: </label>
+                <input type="text" name="myLastName" id="myLastName" required="required" placeholder="Last Name">
+                <label for="myEmail">*E-mail: </label>
+                <input type="email" name="myEmail" id="myEmail" required="required" size="35" placeholder="xxx@whatever.com">
+                <label for="myPhone">Phone: </label>
+                <input type="tel" name="myPhone" id="myPhone" maxlength="12" placeholder="xxx-xxx-xxxx">
+                <label for="myDate">Arrival Date: </label>
+                <input type="date" name="myDate" id="myDate">
+                <label for="myNights">Nights</label>
+                <input type="number" name="myNights" id="myNights" min="1" max="14">
+                <label for="myComment">*Comments: </label>
+                <textarea name="myComment" id="myComment" required="required" placeholder="Enter comments here" rows="2" cols="30"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>Copyright &copy; 2016 Pacific Trails Resort
+            <br>
+            <a href="mailto:jeff@prieve.com">jeff@prieve.com</a></footer>
+    </div>
+</body>
+
+</html>
